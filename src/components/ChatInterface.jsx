@@ -49,7 +49,7 @@ const ChatInterface = () => {
 		<Card className="w-full max-w-2xl mx-auto h-[600px] flex flex-col bg-white shadow-lg">
 			<CardHeader className="border-b bg-gray-50">
 				<CardTitle className="text-lg font-semibold text-gray-700">
-					Therapeutic Chat Assistant
+					Minerva Therapy
 				</CardTitle>
 			</CardHeader>
 
@@ -57,7 +57,7 @@ const ChatInterface = () => {
 				{messages.length === 0 ? (
 					<div className="h-full flex items-center justify-center text-gray-500">
 						<MessageCircle className="mr-2 h-6 w-6" />
-						<span className="text-lg">How are you feeling today?</span>
+						<span className="text-lg">How are you feeling today? boop boop this is working </span>
 					</div>
 				) : (
 					<>
