@@ -52,6 +52,9 @@ const ChatInterface = () => {
 					Minerva Therapy
 				</CardTitle>
 			</CardHeader>
+			<CardHeader className="text-lg font-semibold text-grey-600">
+				Chatbot
+			</CardHeader>
 
 			<CardContent className="flex-1 overflow-auto p-4 space-y-4">
 				{messages.length === 0 ? (
